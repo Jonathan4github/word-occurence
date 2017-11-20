@@ -1,0 +1,33 @@
+{
+  "name": "word-occurence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-register --require babel-polyfill --recursive test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonathan4github/word-occurence.git"
+  },
+  "keywords": [
+    "TDD"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonathan4github/word-occurence/issues"
+  },
+  "homepage": "https://github.com/Jonathan4github/word-occurence#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
